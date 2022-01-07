@@ -62,7 +62,7 @@ app.post("/", function(req, res){
             res.sendFile(__dirname+ "/success.html");
         }
         else{
-            res.send(__dirname+"/failure.html");
+            res.sendFile(__dirname+"/failure.html");
         }
 
         //The 'on' method attaches an event listener (a function) for a certain event
