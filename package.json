@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
    "engines": {
-    "node": ">=14"
-  }
+    "node": ">=14 <15"
+  },
   "author": "Mahaveer Rulaniya",
   "license": "ISC",
   "dependencies": {
